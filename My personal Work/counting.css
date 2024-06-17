@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.counterNumber
+{
+font-size: 18px;
+
+
+}
+.box
+{
+    border: 1px solid balck;
+    background-color: #fe4;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}

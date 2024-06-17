@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar_container {
+
+    width: 100%;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #41515A;
+    color: aliceblue;
+    position: fixed;
+    top: 0;
+    
+}
+
+.logo {
+    font-size: 22px;
+    cursor: pointer;
+    margin-left: 80px;
+
+}
+
+.navbar_list ul {
+    display: flex;
+    margin-right: 50px;
+}
+
+.navbar_list li {
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+.navbar_list a {
+    font-size: 19px;
+    transition: all 0.4s ease-in-out;
+}
+
+.navbar_list a:hover {
+    color: #7bbaeb;
+    cursor: pointer;
+}
+
+/* #############################  nav bar ended################################# */
+
+.hero_right {
+    width: 49%;
+    height: 100%;
+
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.hero_left {
+
+    width: 49%;
+    height: 100%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.hero_container {
+    width: 100%;
+    height: 100vh;
+    background-color: #B8B8B8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero_left h1 {
+    font-size: 39px;
+    font-weight: 100;
+
+}
+
+.hero_left h2 {
+    margin: 15px 0;
+    font-size: 63px;
+    font-weight: 200;
+}
+
+.btn {
+    border: 2px solid #06ecfd;
+    margin-top: 8px;
+    font-size: 19px;
+    padding: 10px;
+    border-radius: 12px;
+    transition: all 0.5s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover {
+    background-color: #06ecfd;
+    cursor: pointer;
+}
+
+span {
+    color: blue;
+}
+
+/* ##########################  hero section ended  #######################################  */
+
+
+.service_container {
+    background-color: #B8B8B8;
+}
+
+.service_container h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.cards_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 100px;
+    padding-bottom: 50px;
+
+}
+
+.card {
+    width: 20%;
+    margin: 40px 15px;
+    height: 250px;
+    border: 1px solid white;
+    border-radius: 20px;
+    /* padding: 10px 120px; */
+    background-color: #41515A;
+    transition: 0.8s;
+}
+.text
+{
+    margin:0 10px ;
+}
+.card-1{
+    padding: 10px 120px;
+}
+span:hover
+{
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+    background-color: #0d3057;
+}
+
+
+
+/* ######################### Service ended ######################### */
+
+
+.contact_logo
+{
+   background-color:#B8B8B8 ; 
+   height: 100px;
+   display: flex;
+   justify-content: center;
+
+}
+.contact_logo i
+{
+    margin: 0 20px;
+    padding-bottom: 10px;
+}
+.contact_logo a i:hover
+{
+  scale: (1.2);  
+  cursor: pointer;
+}
